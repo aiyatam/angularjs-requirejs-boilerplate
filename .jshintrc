@@ -1,0 +1,30 @@
+{
+    "curly": true,
+    "noarg": true,
+    "forin": true,
+    "noempty": true,
+    "eqeqeq": true,
+    "strict": true,
+    "undef": true,
+    "bitwise": true,
+    "browser": true,
+
+    "predef" : [
+        "Modernizr",
+        "require",
+        "define",
+        "console",
+        "angular",
+        "describe",
+        "beforeEach",
+        "module",
+        "inject",
+        "it",
+        "expect",
+        "spyOn",
+        "jasmine",
+        "readFixtures",
+        "$w",
+        "$rfapp"
+    ]
+}

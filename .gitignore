@@ -1,0 +1,5 @@
+# Created by .gitignore support plugin (hsz.mobi)
+.idea
+atlassian-ide-plugin.xml
+angularjs-requirejs-boilerplate.iml
+bower_components
