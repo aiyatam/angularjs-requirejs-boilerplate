@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="js/vendor/bower/modernizr/modernizr.js"></script>
+</head>
+<body>
+
+<div data-ng-controller="controller1" data-ng-cloak>
+    <h1>{{myAwesomeHeading}}</h1>
+
+    <p data-ng-repeat="framework in frameworksContent">
+        <strong>{{framework.heading}}: </strong>{{framework.description}}
+    </p>
+</div>
+
+<script>
+    var $w = window;
+    $w.$myapp = $w.$myapp || {};
+    $w.$myapp.deps = $w.$myapp.deps || [];
+    $w.$myapp.deps.push('modules/module1/app');
+
+    $w.$myapp.ngApps = $w.$myapp.ngApps || [];
+    $w.$myapp.ngApps.push('module1');
+</script>
+
+<script src="js/vendor/bower/requirejs/require.js" data-main="js/main"></script>
+
+</body>
+</html>

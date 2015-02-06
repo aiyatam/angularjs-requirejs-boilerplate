@@ -3,3 +3,6 @@
 atlassian-ide-plugin.xml
 angularjs-requirejs-boilerplate.iml
 bower_components
+src/js/vendor/bower
+node_modules
+build
